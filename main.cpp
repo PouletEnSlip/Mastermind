@@ -1,10 +1,3 @@
-/*
-Nom : main.cpp
-Sujet : programme console de test unitaire du jeu du mastermind
-Auteur : Léo SEGUIN
-Création : 10/05/2021
-*/
-
 #include <iostream>
 #include "cmastermind.h"
 
@@ -19,15 +12,6 @@ int main()
     unsigned short nbBon,nbMal;
     maPartie.initialiserJeu(8,12);
     tab = maPartie.getCombinaison();
-
-    /*
-    for(i = 0; i < 4; i++)
-        {
-           cout << tab[i]<<"\t";
-        }
-        cout <<endl;
-    //afficher le resultat
-    */
 
     do
     {
