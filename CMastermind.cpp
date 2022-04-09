@@ -13,7 +13,6 @@ CMastermind::CMastermind()
 
 CMastermind::~CMastermind()
 {
-
 }
 
 void CMastermind::initialiserJeu(unsigned short nbCoul, unsigned nbCoup)
@@ -27,25 +26,6 @@ void CMastermind::initialiserJeu(unsigned short nbCoul, unsigned nbCoup)
         combinaison[i] = rand() %8;
     }
 }
-
-/*
-Fonction analyser( couleur : short, choixX : short ) : booleen
-VAR : nbBienPlacee, nbBonneCouleur, nbEssai, i, k : entier court
-Debut
-    nbBienPlacee <- 0
-    nbBonneCouleur <- 0
-    i <- 0
-    Si (combinaison[i] = proposition[i]) alors
-        nbBienPlacee++
-    Sinon
-        Pour (k <- 0 jusqu'a  4 avec un pas de un) Faire
-            Si  proposition[k] = combinaison[i]) alors
-                nbBonneCouleur++
-            Fin Si
-        Fin Pour
-   Fin Si
-Fin
-*/
 
 void CMastermind::analyser()
 {
