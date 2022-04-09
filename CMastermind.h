@@ -1,11 +1,3 @@
-/*
-Nom Fichier : CMastermind.h
-Classe : CMastermind
-Sujet : gestion du jeu du mastermind
-Auteur : Léo SEGUIN
-Création : 10/05/2021
-*/
-
 #ifndef CMASTERMIND_H
 #define CMASTERMIND_H
 
